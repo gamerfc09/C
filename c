@@ -14,3 +14,29 @@ import java.util.*;
     System.out.println(c);
    }
  }
+
+import java.util.*;
+class Gautu
+{
+   protected void gt()
+  {
+    System.out.println("bye");
+  }
+}
+class At extends Gautu
+{
+   void gt()
+  {
+    System.out.println("hi");
+  }
+}
+
+ class Dcoder
+ {
+   public static void main(String args[])
+   { 
+    System.out.println("Hello, Dcoder!");
+    At a=new At();
+    a.gt();
+   }
+ }
